@@ -48,6 +48,7 @@
         "@vue/test-utils": "^2.3.2",
     {% endif %}
         "electron": "^25.3.0",
+        "electron-builder": "^24.4.0",
         "eslint": "^8.27.0",
         "husky": "^8.0.1",
         "jsdom": "^22.1.0",
