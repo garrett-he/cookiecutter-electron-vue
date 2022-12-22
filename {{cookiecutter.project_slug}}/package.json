@@ -3,8 +3,9 @@
     "version": "{{ cookiecutter.project_version }}",
     "description": "{{ cookiecutter.project_description }}",
     "private": {{ cookiecutter.project_private }},
+    "main": "./dist-electron/index.js",
     "scripts": {
-        "build": "vite build",
+        "build": "vite build && electron-builder",
         "dev": "vite --host",
         "lint": "npm run lint:eslint && npm run lint:markdownlint && npm run lint:stylelint",
         "lint:eslint": "eslint . --ext .ts",
@@ -12,6 +13,7 @@
         "lint:stylelint": "stylelint ./src/**/*.{vue,css,styl}",
         "prepare": "husky install",
         "test": "vitest --run"
+        "test:dev": "vitest"
     },
     "repository": {
         "type": "git",
