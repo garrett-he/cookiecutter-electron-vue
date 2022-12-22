@@ -1,6 +1,6 @@
 ---
-productName: { { cookiecutter.project_name } }
-appId: { { cookiecutter.project_slug } }
+productName: {{ cookiecutter.project_name }}
+appId: {{ cookiecutter.project_slug }}
 files:
   - dist/
   - dist-electron/

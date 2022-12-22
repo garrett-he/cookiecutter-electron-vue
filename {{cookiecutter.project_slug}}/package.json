@@ -12,7 +12,7 @@
         "lint:markdownlint": "markdownlint *.md",
         "lint:stylelint": "stylelint ./src/**/*.{vue,css,styl}",
         "prepare": "husky install",
-        "test": "vitest --run"
+        "test": "vitest --run",
         "test:dev": "vitest"
     },
     "repository": {
