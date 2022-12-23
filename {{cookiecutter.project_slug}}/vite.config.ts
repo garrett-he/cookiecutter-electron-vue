@@ -10,11 +10,14 @@ export default {
     plugins: [
         electron([
             {
-                entry: ["./electron/index.ts", "./electron/preload.ts"],
+                entry: [
+                    path.resolve(__dirname, "src/main/index.ts"),
+                    path.resolve(__dirname, "src/main/preload.ts")
+                ],
                 vite: {
                     resolve: {
                         alias: {
-                            "@electron": path.resolve(__dirname, "electron")
+                            "@main": path.resolve(__dirname, "src/main")
                         }
                     }
                 }
@@ -24,7 +27,8 @@ export default {
     ],
     resolve: {
         alias: {
-            "@": path.resolve(__dirname, "src")
+            "@": path.resolve(__dirname, "src"),
+            "@renderer": path.resolve(__dirname, "src/renderer")
         }
     }
 };

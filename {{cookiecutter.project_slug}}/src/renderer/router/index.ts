@@ -1,7 +1,7 @@
 {% if cookiecutter.vue_version == '2' %}
 import Vue from "vue";
 import VueRouter, {RouteConfig} from "vue-router";
-import IndexPage from "@/views/pages/IndexPage.vue";
+import IndexPage from "@renderer/views/pages/IndexPage.vue";
 
 Vue.use(VueRouter);
 
@@ -18,7 +18,7 @@ export default new VueRouter({
 });
 {% else %}
 import {RouteRecordRaw, createRouter, createWebHashHistory} from "vue-router";
-import IndexPage from "@/views/pages/IndexPage.vue";
+import IndexPage from "@renderer/views/pages/IndexPage.vue";
 
 const routes: RouteRecordRaw[] = [
     {
