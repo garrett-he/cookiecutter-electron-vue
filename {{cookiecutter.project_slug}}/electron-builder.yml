@@ -1,0 +1,15 @@
+---
+productName: {{ cookiecutter.project_name }}
+appId: {{ cookiecutter.project_slug }}
+files:
+  - dist/
+  - dist-electron/
+mac:
+  target: tar.xz
+  icon: resources/icons/app.png
+win:
+  target: 7z
+  icon: resources/icons/app.png
+linux:
+  target: tar.xz
+  icon: resources/icons/app.png
