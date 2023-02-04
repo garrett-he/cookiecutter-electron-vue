@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/github/license/garrett-he/cookiecutter-electron-vue)
 ![GitHub Workflow](https://img.shields.io/github/actions/workflow/status/garrett-he/cookiecutter-electron-vue/ubuntu-jammy.yml)
 
-A Cookiecutter template for HTML with Vue.js framework.
+A Cookiecutter template for [Electron][1] applications with Vue.js framework.
 
 ## Quickstart
 
@@ -22,3 +22,5 @@ A Cookiecutter template for HTML with Vue.js framework.
 Copyright (C) 2024 Garrett HE <garrett.he@outlook.com>
 
 The BSD 3-Clause License, see [LICENSE](./LICENSE).
+
+[1]: https://www.electronjs.org/
