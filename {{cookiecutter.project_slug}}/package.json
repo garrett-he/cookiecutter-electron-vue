@@ -3,6 +3,7 @@
     "version": "{{ cookiecutter.project_version }}",
     "description": "{{ cookiecutter.project_description }}",
     "private": {{ cookiecutter.project_private }},
+    "main": "./dist-electron/index.js",
     "scripts": {
         "build": "vite build",
         "dev": "vite --host",
