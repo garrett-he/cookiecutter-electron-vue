@@ -12,5 +12,8 @@ if license_id != 'Unlicense':
 for license_file in glob('LICENSE.*'):
     os.unlink(license_file)
 
+if license_id[0:3] == 'GPL':
+    os.rename('LICENSE', 'COPYING')
+
 if with_vuex == 'no':
     shutil.rmtree('src/store', ignore_errors=True)

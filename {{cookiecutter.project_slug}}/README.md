@@ -17,7 +17,7 @@ Apache License, Version 2.0, see [LICENSE](./LICENSE).
 The BSD 3-Clause License, see [LICENSE](./LICENSE).
 {%- elif cookiecutter.license_id == 'GPL-3.0' %}
 
-The GNU General Public License (GPL) version 3, see [LICENSE](./LICENSE).
+The GNU General Public License (GPL) version 3, see [COPYING](./COPYING).
 {%- elif cookiecutter.license_id == 'LGPL-3.0' %}
 
 The GNU Lesser General Public License (GPL) version 3, see [LICENSE](./LICENSE).
