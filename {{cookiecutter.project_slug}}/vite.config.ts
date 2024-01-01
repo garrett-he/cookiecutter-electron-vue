@@ -1,4 +1,4 @@
-import path from "path";
+import path from "node:path";
 import electron from "vite-plugin-electron";
 import vue from "@vitejs/plugin-vue";
 

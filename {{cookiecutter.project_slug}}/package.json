@@ -11,7 +11,7 @@
         "lint:eslint": "eslint . --ext .ts",
         "lint:markdownlint": "markdownlint *.md",
         "lint:stylelint": "stylelint ./src/**/*.{vue,css}",
-        "prepare": "husky install",
+        "prepare": "husky init",
         "test": "vitest --run"
     },
     "repository": {
